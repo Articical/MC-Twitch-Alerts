@@ -62,7 +62,7 @@ public class TwitchAPI {
 		String s;
 
 		if (channel == null) {
-			s = getUrlAsString("http://91.121.183.57/live.php");
+			s = getUrlAsString("http://198.244.177.21/live.php?user=aoisakura");
 		} else {
 			s = getUrlAsString("http://91.121.183.57/live.php?user=" + channel);
 		}
